@@ -44,7 +44,7 @@ text_sensor:
 uart:
   rx_pin: RX
   baud_rate: 4800
-  parity: NONE
+  parity: EVEN
 
 binary_sensor:
   - platform: gpio
