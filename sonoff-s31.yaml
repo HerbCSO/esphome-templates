@@ -25,6 +25,8 @@ captive_portal:
 api:
 
 ota:
+  - platform: esphome
+  - platform: web_server
 
 web_server:
   local: true
